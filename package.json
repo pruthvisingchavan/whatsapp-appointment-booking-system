@@ -1,0 +1,45 @@
+{
+  "name": "whatsapp-appointment-api",
+  "version": "1.0.0",
+  "description": "Production-ready WhatsApp Appointment Automation Backend using Node.js, Express, Twilio WhatsApp API, and Google Sheets",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "whatsapp",
+    "appointment-booking",
+    "twilio",
+    "google-sheets",
+    "nodejs",
+    "express",
+    "automation",
+    "backend-api"
+  ],
+  "author": "Pruthvi Chavan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.3.2",
+    "googleapis": "^172.0.0",
+    "helmet": "^8.2.0",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.1",
+    "twilio": "^6.0.2",
+    "uuid": "^14.0.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
